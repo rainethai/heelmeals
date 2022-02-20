@@ -22,6 +22,20 @@
     <link rel="stylesheet" href="assets/css/starter.css" />
     <link rel="stylesheet" href="assets/css/social.css" />
 
+    <script>
+        function post() {
+          var name = document.getElementById("name_input").value;
+          var invite = document.getElementById("invite_input").value;
+          document.getElementById("name_input").value = "";
+          document.getElementById("invite_input").value = "";
+          alert("Thank you for your contribution!");
+          document.getElementById("name").innerHTML = name;
+          document.getElementById("invite").innerHTML = invite;
+        //   document.getElementById("img_test").src = 'assets/img/property/house-5.jpg';
+        }
+    
+      </script>
+
 </head>
 
 <body>
@@ -130,10 +144,10 @@
                                         </div>
                                         <div class="card-content">
                                             <h4 class="card-title">
-                                                <a href="javascript:void(0)">Raine Thai</a>
+                                                <a href="javascript:void(0)" id="name"></a>
                                             </h4>
-                                            <p class="text" style="color: white;">
-                                                Chase or Lenoir tonight?
+                                            <p class="text" style="color: white;" id="invite">
+                                                
                                             </p>
                                         </div>
                                     </div>
@@ -162,7 +176,7 @@
                     <form action="#">
                         <label>Your name</label>
                         <div class="input-items default">
-                            <input type="text" placeholder="Default" />
+                            <input type="text" placeholder="Default" id="name_input" />
                             <i class="lni lni-user"></i>
                         </div>
                     </form>
@@ -174,7 +188,7 @@
                     <form action="#">
                         <label># of meals you're donating</label>
                         <div class="input-items active">
-                            <input type="text" placeholder="Active" />
+                            <input type="text" placeholder="Active" id="invite_input"/>
                             <i class="lni lni-user"></i>
                         </div>
                     </form>
@@ -208,7 +222,7 @@
             </div>
 
             <div class="button">
-                <a href="#" class="btn">Donate!
+                <a onclick="post()" class="btn">Donate!
                 </a>
             </div>
         </div>
