@@ -22,18 +22,18 @@
     <link rel="stylesheet" href="assets/css/tabs.css" />
     <link rel="stylesheet" href="assets/css/starter.css" />
     <link rel="stylesheet" href="assets/css/count.css" />
-    
-    <script>        
+
+    <script>
         function swipe() {
-          var number = parseFloat(document.getElementById("swipe").innerHTML);
-          document.getElementById("swipe").innerHTML = number-1;
+            var number = parseFloat(document.getElementById("swipe").innerHTML);
+            document.getElementById("swipe").innerHTML = number - 1;
         }
 
         function spend() {
             var input = document.getElementById("budget_input").value;
-            document.getElementById("budget").innerHTML = parseFloat(document.getElementById("budget").innerHTML)-input;
+            document.getElementById("budget").innerHTML = parseFloat(document.getElementById("budget").innerHTML) - input;
         }
-          
+
     </script>
 
 </head>
@@ -130,20 +130,23 @@
                                                     <!--====== ERROR PART START ======-->
                                                     <section class="error-area error-one">
                                                         <div class="container">
-                                                        <div class="row justify-content-center">
-                                                            <div class="col-xxl-7 col-xl-8 col-lg-8">
-                                                                <div class="error-content text-center">
-                                                                    <span class="error-404" id="swipe">100</span>
-                                                                    <h5 class="sub-title">Swipes Left</h5>
-                                                                    <div class="error-form">
-                                                                        <a href="javascript:void(0)" class="btn primary-btn" onclick="swipe()" onload="swipe"> Swipe </a>
+                                                            <div class="row justify-content-center">
+                                                                <div class="col-xxl-7 col-xl-8 col-lg-8">
+                                                                    <div class="error-content text-center">
+                                                                        <span class="error-404" id="swipe">100</span>
+                                                                        <h5 class="sub-title">Swipes Left</h5>
+                                                                        <div class="error-form">
+                                                                            <a href="javascript:void(0)"
+                                                                                class="btn primary-btn"
+                                                                                onclick="swipe()" onload="swipe"> Swipe
+                                                                            </a>
+                                                                        </div>
+                                                                        <!-- error content -->
                                                                     </div>
-                                                                    <!-- error content -->
                                                                 </div>
+                                                                <!-- row -->
                                                             </div>
-                                                            <!-- row -->
-                                                        </div>
-                                                        <!-- container -->
+                                                            <!-- container -->
                                                     </section>
                                                     <!--====== ERROR PART ENDS ======-->
                                                 </div>
@@ -151,21 +154,23 @@
                                                     <!--====== ERROR PART START ======-->
                                                     <section class="error-area error-one">
                                                         <div class="container">
-                                                        <div class="row justify-content-center">
-                                                            <div class="col-xxl-7 col-xl-8 col-lg-8">
-                                                                <div class="error-content text-center">
-                                                                    <span class="error-404" id="budget">50</span>
-                                                                    <h5 class="sub-title">$ Left</h5>
-                                                                    <div class="error-form">
-                                                                        <input type="text" id="budget_input" placeholder="ex. $5.00" />
-                                                                        <a onclick="spend()" class="btn primary-btn"> Spend </a>
+                                                            <div class="row justify-content-center">
+                                                                <div class="col-xxl-7 col-xl-8 col-lg-8">
+                                                                    <div class="error-content text-center">
+                                                                        <span class="error-404" id="budget">50</span>
+                                                                        <h5 class="sub-title">$ Left</h5>
+                                                                        <div class="error-form">
+                                                                            <input type="text" id="budget_input"
+                                                                                placeholder="ex. $5.00" />
+                                                                            <a onclick="spend()"
+                                                                                class="btn primary-btn"> Spend </a>
+                                                                        </div>
+                                                                        <!-- error content -->
                                                                     </div>
-                                                                    <!-- error content -->
                                                                 </div>
+                                                                <!-- row -->
                                                             </div>
-                                                            <!-- row -->
-                                                        </div>
-                                                        <!-- container -->
+                                                            <!-- container -->
                                                     </section>
                                                     <!--====== ERROR PART ENDS ======-->
                                                 </div>
@@ -187,10 +192,10 @@
                                                                     <div class="error-content text-center">
                                                                         <span class="error-404">200</span>
                                                                         <h5 class="sub-title">Swipes Left</h5>
-                                                                        <div class="error-form">
+                                                                        <!-- <div class="error-form">
                                                                             <a href="javascript:void(0)"
                                                                                 class="btn primary-btn"> Swipe </a>
-                                                                        </div>
+                                                                        </div> -->
                                                                     </div>
                                                                     <!-- error content -->
                                                                 </div>
@@ -209,12 +214,12 @@
                                                                     <div class="error-content text-center">
                                                                         <span class="error-404">$50</span>
                                                                         <h5 class="sub-title">Budget Left</h5>
-                                                                        <div class="error-form">
+                                                                        <!-- <div class="error-form">
                                                                             <input type="text"
                                                                                 placeholder="ex. $5.00" />
                                                                             <a href="javascript:void(0)"
                                                                                 class="btn primary-btn"> Spend </a>
-                                                                        </div>
+                                                                        </div> -->
                                                                     </div>
                                                                     <!-- error content -->
                                                                 </div>
