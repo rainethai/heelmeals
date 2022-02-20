@@ -1414,7 +1414,7 @@ ol {
   width: 100px;
   height: 100px;
   border-radius: 100%;
-  background: #2ed06e;
+  background: #7bafda;
   -webkit-animation: preloader-fx 1.6s linear infinite;
   animation: preloader-fx 1.6s linear infinite;
 }
@@ -1486,16 +1486,16 @@ ol {
     border-radius: 8px;
   }
   .header .navbar .navbar-nav .nav-item a:hover {
-    color: #2ed06e !important;
+    color: #7bafda !important;
   }
   .header .navbar .navbar-nav .nav-item a.active {
-    color: #2ed06e !important;
+    color: #7bafda !important;
   }
   .header .navbar-nav .nav-item {
     margin: 0;
   }
   .header .navbar-nav .nav-item:hover a {
-    color: #2ed06e;
+    color: #7bafda;
   }
   .header .navbar-nav .nav-item a {
     padding: 12px 16px !important;
@@ -1537,7 +1537,7 @@ ol {
   }
   .header .navbar-nav .nav-item .sub-menu li.active {
     background: #fff !important;
-    color: #2ed06e !important;
+    color: #7bafda !important;
   }
   .header .navbar-nav .nav-item .sub-menu .nav-item {
     margin: 0 !important;
@@ -1547,13 +1547,13 @@ ol {
   }
   .header .navbar-nav .nav-item .sub-menu li:hover {
     background: #fff !important;
-    color: #2ed06e !important;
+    color: #7bafda !important;
   }
   .header .navbar-nav .nav-item a {
     font-size: 14px;
   }
   .header .navbar-nav .nav-item a:hover {
-    color: #2ed06e;
+    color: #7bafda;
   }
 }
 
@@ -1931,7 +1931,7 @@ ol {
 }
 
 .navbar-nav .nav-item .sub-menu .nav-item a:hover {
-  color: #2ed06e;
+  color: #7bafda;
 }
 
 .navbar-nav .nav-item .sub-menu.left-menu {
@@ -1993,7 +1993,7 @@ ol {
 
 .header .button .btn:hover {
   color: #fff;
-  background-color: #2ed06e;
+  background-color: #7bafda;
 }
 
 .header .button.home-btn .btn:hover {
@@ -2002,12 +2002,12 @@ ol {
 }
 
 .sticky .button .btn {
-  background-color: #2ed06e;
+  background-color: #7bafda;
   color: #fff;
 }
 
 .sticky .button .btn:hover {
-  background-color: #2ed06e;
+  background-color: #7bafda;
   color: #fff;
 }
 
@@ -2016,14 +2016,14 @@ ol {
     color: #081828;
   }
   .header .button .signin:hover {
-    color: #2ed06e;
+    color: #7bafda;
   }
   .header .button .signup {
-    background-color: #2ed06e;
+    background-color: #7bafda;
     color: #fff;
   }
   .header .button .signup:hover {
-    background-color: #2ed06e;
+    background-color: #7bafda;
     color: #fff;
   }
 }
@@ -2254,7 +2254,7 @@ ol {
 }
 
 .freatures .content .heading span {
-  color: #2ed06e;
+  color: #7bafda;
   display: block;
   margin-bottom: 10px;
   font-size: 15px;
@@ -2277,7 +2277,7 @@ ol {
   line-height: 70px;
   text-align: center;
   color: #fff;
-  background-color: #2ed06e;
+  background-color: #7bafda;
   border-radius: 50%;
   position: absolute;
   left: 0;
@@ -2350,7 +2350,7 @@ ol {
 
 .call-action .text h2 span {
   display: block;
-  color: #2ed06e;
+  color: #7bafda;
 }
 
 .call-action .button {
@@ -2505,7 +2505,7 @@ ol {
 }
 
 .footer .single-footer.f-link li a:hover {
-  color: #2ed06e;
+  color: #7bafda;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 1400px) {
@@ -2560,11 +2560,11 @@ ol {
 }
 
 .footer .newsletter-form input:hover {
-  border-color: #2ed06e;
+  border-color: #7bafda;
 }
 
 .footer .newsletter-form input:focus {
-  border-color: #2ed06e;
+  border-color: #7bafda;
 }
 
 .footer .newsletter-form .button {
@@ -2592,7 +2592,7 @@ ol {
 
 .footer .newsletter-form .button .sub-btn:hover {
   color: #fff;
-  background-color: #2ed06e;
+  background-color: #7bafda;
 }
 
 .footer .copyright-area .inner-content {
@@ -2631,5 +2631,5 @@ ol {
 }
 
 .footer .copyright-area p a:hover {
-  color: #2ed06e;
+  color: #7bafda;
 }
