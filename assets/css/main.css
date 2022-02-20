@@ -1297,7 +1297,7 @@ ol {
   font-size: 15px;
   font-weight: 500;
   padding: 14px 30px;
-  background-color: #2ed06e;
+  background-color: var(--primary);
   color: #fff;
   border: none;
   -webkit-transition: all 0.4s ease;
