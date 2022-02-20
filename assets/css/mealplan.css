@@ -1,7 +1,18 @@
+.header {
+  display: block;
+}
+
+.logo {
+	display: block;
+  padding-left: 30px;
+  padding-bottom: 1px;
+	max-width:10%;
+	max-height:10%;
+  }
 
 /*===== BLOG STYLE ONE =====*/
 .blog-style-one {
-    margin-top: 50px;
+    margin-top: 125px;
   }
   .blog-style-one .blog-image {
     overflow: hidden;
@@ -56,7 +67,7 @@
   }
   .blog-style-one .blog-content .blog-title a {
     font-weight: 600;
-    color: var(--black);
+    color: var(--primary-dark);
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
@@ -69,10 +80,6 @@
       line-height: 24px;
     }
   }
-  .blog-style-one .blog-content .blog-title a:hover {
-    color: var(--primary); 
-    /*These are for Plan Names (Block, Unlimited, Off-Campus*/ 
-  } 
   .blog-style-one .blog-content span {
     font-size: 14px;
     line-height: 20px;
@@ -84,18 +91,19 @@
   .blog-style-one .blog-content .text {
     color: var(--dark-3);
     margin-top: 16px;
+    margin-bottom: 10px;
     /*Select your plan*/
   }
   .blog-style-one .blog-content .more {
     text-transform: uppercase;
     font-weight: 600;
-    color: var(--primary);
+    color: var(--primary-dark);;
     margin-top: 30px;
     display: inline-block;
     /*Select Buttons*/
   }
   .blog-style-one .blog-content .more:hover {
-    color: var(--primary-dark);
+    color: var(--primary);
     /*This is for SELECT BUTTONS*/
   }
   
