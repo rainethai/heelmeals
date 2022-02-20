@@ -34,6 +34,11 @@
             document.getElementById("budget").innerHTML = parseFloat(document.getElementById("budget").innerHTML) - input;
         }
 
+        function updateSemester() {
+            document.getElementById("semester_swipe").innerHTML = 14*parseFloat(document.getElementById("swipe").innerHTML);
+            document.getElementById("semester_budget").innerHTML = 14*parseFloat(document.getElementById("budget").innerHTML)
+        }
+
     </script>
 
 </head>
@@ -117,7 +122,7 @@
                                 </li>
                                 <li class="nav-item">
                                     <a id="tab-one-two-tab" data-bs-toggle="tab" href="#tab-one-two" role="tab"
-                                        aria-controls="tab-one-two" aria-selected="false">SEMESTER</a>
+                                        aria-controls="tab-one-two" aria-selected="false" onclick="updateSemester()">SEMESTER</a>
                                 </li>
                             </ul>
                             <div class="tab-content" id="myTabContent">
@@ -188,7 +193,7 @@
                                                             <div class="row justify-content-center">
                                                                 <div class="col-xxl-7 col-xl-8 col-lg-8">
                                                                     <div class="error-content text-center">
-                                                                        <span class="error-404">200</span>
+                                                                        <span class="error-404" id="semester_swipe">200</span>
                                                                         <h5 class="sub-title">Swipes Left</h5>
                                                                         <!-- <div class="error-form">
                                                                             <a href="javascript:void(0)"
@@ -210,8 +215,8 @@
                                                             <div class="row justify-content-center">
                                                                 <div class="col-xxl-7 col-xl-8 col-lg-8">
                                                                     <div class="error-content text-center">
-                                                                        <span class="error-404">$50</span>
-                                                                        <h5 class="sub-title">Budget Left</h5>
+                                                                        <span class="error-404" id="semester_budget">$50</span>
+                                                                        <h5 class="sub-title">$ Left</h5>
                                                                         <!-- <div class="error-form">
                                                                             <input type="text"
                                                                                 placeholder="ex. $5.00" />
