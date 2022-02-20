@@ -1292,6 +1292,7 @@ ol {
 }
 
 .button .btn {
+<<<<<<< HEAD
 	display: inline-block;
 	text-transform: capitalize;
 	font-size: 15px;
@@ -1307,6 +1308,23 @@ ol {
 	z-index: 1;
 	margin-right: 7px;
 	overflow: hidden;
+=======
+  display: inline-block;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 14px 30px;
+  background-color: var(--primary);
+  color: #fff;
+  border: none;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  border-radius: 30px;
+  position: relative;
+  z-index: 1;
+  margin-right: 7px;
+  overflow: hidden;
+>>>>>>> 5794397a12c22c754c8364dbc2a459c79b00c66d
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
