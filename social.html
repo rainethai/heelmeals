@@ -24,6 +24,7 @@
 
     <script>
         function post() {
+            document.getElementById("display_card").style.display = 'block';
             var name = document.getElementById("name_input").value;
             var invite = document.getElementById("invite_input").value;
             var location = document.getElementById("location_input").value;
@@ -152,7 +153,7 @@
                                 </div>
                                 <!-- col -->
                                 <div class="col-lg-4 col-md-7 col-sm-9">
-                                    <div class="single-card card-style-one">
+                                    <div class="single-card card-style-one" id="display_card" style="display: none">
                                         <div class="card-image">
                                             <img src="assets/images/salad_bar.jpeg" alt="Image" />
                                         </div>
