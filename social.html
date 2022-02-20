@@ -24,17 +24,24 @@
 
     <script>
         function post() {
-          var name = document.getElementById("name_input").value;
-          var invite = document.getElementById("invite_input").value;
-          document.getElementById("name_input").value = "";
-          document.getElementById("invite_input").value = "";
-          alert("Thank you for your contribution!");
-          document.getElementById("name").innerHTML = name;
-          document.getElementById("invite").innerHTML = invite;
-        //   document.getElementById("img_test").src = 'assets/img/property/house-5.jpg';
+            var name = document.getElementById("name_input").value;
+            var invite = document.getElementById("invite_input").value;
+            var location = document.getElementById("location_input").value;
+            var date = document.getElementById("date_input").value;
+            document.getElementById("name_input").value = "";
+            document.getElementById("invite_input").value = "";
+            document.getElementById("location_input").value = "";
+            document.getElementById("date_input").value = "";
+            alert("Thank you for your contribution!");
+            document.getElementById("name").innerHTML = name;
+            document.getElementById("invite").innerHTML = invite;
+            document.getElementById("location").innerHTML = location;
+            document.getElementById("date").innerHTML = date;
+
+            //   document.getElementById("img_test").src = 'assets/img/property/house-5.jpg';
         }
-    
-      </script>
+
+    </script>
 
 </head>
 
@@ -146,9 +153,13 @@
                                             <h4 class="card-title">
                                                 <a href="javascript:void(0)" id="name"></a>
                                             </h4>
-                                            <p class="text" style="color: white;" id="invite">
-                                                
+                                            <p class="text" style="color: white;" id="location">
                                             </p>
+                                            <p class="text" style="color: white;" id="date">
+                                            </p>
+                                            <p class="text" style="color: white;" id="invite">
+                                            </p>
+
                                         </div>
                                     </div>
                                     <!-- single-card -->
@@ -176,7 +187,7 @@
                     <form action="#">
                         <label>Your name</label>
                         <div class="input-items default">
-                            <input type="text" placeholder="Default" id="name_input" />
+                            <input type="text" placeholder="First Last" id="name_input" />
                             <i class="lni lni-user"></i>
                         </div>
                     </form>
@@ -186,9 +197,9 @@
             <div class="col-lg">
                 <div class="form-input mt-5">
                     <form action="#">
-                        <label># of meals you're donating</label>
-                        <div class="input-items active">
-                            <input type="text" placeholder="Active" id="invite_input"/>
+                        <label>Message</label>
+                        <div class="input-items default">
+                            <input type="text" placeholder="I have 3 swipes to donate!" id="invite_input" />
                             <i class="lni lni-user"></i>
                         </div>
                     </form>
@@ -200,8 +211,8 @@
                     <form action="#" data-toggle="validator">
                         <label>Location</label>
                         <div class="input-items default">
-                            <input type="text" placeholder="Lenoir on the left" data-error="Please enter your userid"
-                                required />
+                            <input type="text" placeholder="Back Entrance of Lenoir" id="location_input"
+                                data-error="Please enter your userid" required />
                             <i class="lni lni-user"></i>
                         </div>
                     </form>
@@ -213,7 +224,7 @@
                     <form action="#">
                         <label>Date & Time</label>
                         <div class="input-items success">
-                            <input type="text" placeholder="Success" />
+                            <input type="text" placeholder="MM/DD" id="date_input" />
                             <i class="lni lni-user"></i>
                         </div>
                     </form>
@@ -222,7 +233,7 @@
             </div>
 
             <div class="button" style="margin-bottom: 30px;">
-                <a onclick="post()" class="btn">Donate!
+                <a onclick="post()" class="btn">Post!
                 </a>
             </div>
         </div>
