@@ -24,6 +24,7 @@
 
     <script>
         function post() {
+            document.getElementById("display_card").style.display = 'block';
             var name = document.getElementById("name_input").value;
             var invite = document.getElementById("invite_input").value;
             var location = document.getElementById("location_input").value;
@@ -148,39 +149,40 @@
                                         </p>
                                     </div>
                                 </div>
-                                <!-- single-card -->
-                            </div>
-                            <!-- col -->
-                            <div class="col-lg-4 col-md-7 col-sm-9">
-                                <div class="single-card card-style-one">
-                                    <div class="card-image">
-                                        <img src="assets/images/salad_bar.jpeg" alt="Image" />
-                                    </div>
-                                    <div class="card-content" style="background-color: white;">
-                                        <h4 class="card-title">
-                                            <a href="javascript:void(0)" id="name"
-                                                style="color: var(--primary-dark);"></a>
-                                        </h4>
-                                        <p class="text" style="color: grey;" id="location">
-                                        </p>
-                                        <p class="text" style="color: black;" id="invite">
-                                        </p>
+                                <!-- col -->
+                                <div class="col-lg-4 col-md-7 col-sm-9">
+                                    <div class="single-card card-style-one" id="display_card" style="display: none">
+                                        <div class="card-image">
+                                            <img src="assets/images/salad_bar.jpeg" alt="Image" />
+                                        </div>
+                                        <div class="card-content" style="background-color: white;">
+                                            <h4 class="card-title">
+                                                <a href="javascript:void(0)" id="name"
+                                                    style="color: var(--primary-dark);"></a>
+                                            </h4>
+                                            <p class="text" style="color: grey;" id="location">
+                                            </p>
+                                            <p class="text" style="color: black;" id="invite">
+                                            </p>
 
+                                        </div>
                                     </div>
+                                    <!-- single-card -->
                                 </div>
-                                <!-- single-card -->
+                                <!-- col -->
                             </div>
-                            <!-- col -->
+                            <!-- row -->
                         </div>
-                        <!-- row -->
-                    </div>
-                    <!-- container -->
+                        <!-- container -->
                 </section>
                 <!--====== CARD PART ENDS ======-->
 
     </section>
     <!-- End Hero Area -->
     <div class="form-style form-style-two">
+        <div class="row" style="margin-top:30px; margin-left: 30px; color: var(--primary-dark)">
+            <label>Donate Swipes Here!</label>
+        </div>
         <div class="row">
             <div class="col-lg">
                 <div class="form-input mt-5">
