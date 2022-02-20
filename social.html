@@ -35,8 +35,7 @@
             alert("Thank you for your contribution!");
             document.getElementById("name").innerHTML = name;
             document.getElementById("invite").innerHTML = invite;
-            document.getElementById("location").innerHTML = location;
-            document.getElementById("date").innerHTML = date;
+            document.getElementById("location").innerHTML = date + "  |  " + location;
 
             //   document.getElementById("img_test").src = 'assets/img/property/house-5.jpg';
         }
@@ -114,13 +113,16 @@
                                         <div class="card-image">
                                             <img src="assets/images/chickfila.jpeg" alt="Image" />
                                         </div>
-                                        <div class="card-content" disabled="true">
+                                        <div class="card-content" style="background-color: white;" disabled="true">
                                             <h4 class="card-title">
-                                                <a href="javascript:void(0)">Vrinda Desai</a>
+                                                <a href="javascript:void(0)" style="color: var(--primary-dark);">Vrinda
+                                                    Desai</a>
                                             </h4>
-                                            <p class="text" style="color: white;">
-                                                Hey, had dinner on Franklin St a few times this week! Anyone need
-                                                swipes?
+                                            <p class="text" style="color: grey;">
+                                                02/17 at 12:30 PM | Walk to Lenoir together
+                                            </p>
+                                            <p class="text" style="color: black;">
+                                                Ate on Franklin St. a bunch this week, let me know if you need swipes!
                                             </p>
                                         </div>
                                     </div>
@@ -132,12 +134,17 @@
                                         <div class="card-image">
                                             <img src="assets/images/pasta.jpeg" alt="Image" />
                                         </div>
-                                        <div class="card-content">
+                                        <div class="card-content" style="background-color: white;">
                                             <h4 class="card-title">
-                                                <a href="javascript:void(0)">Vivian Deng</a>
+                                                <a href="javascript:void(0)" style="color: var(--primary-dark);">Vivian
+                                                    Deng</a>
                                             </h4>
-                                            <p class="text" style="color: white;">
-                                                Had a busy week——ran out of swipes!
+                                            <p class="text" style="color: grey;">
+                                                02/19 at 7:00 PM | In front of Morrison
+                                            </p>
+
+                                            <p class="text" style="color: black;">
+                                                Had a busy week——does anyone have extra swipes?
                                             </p>
                                         </div>
                                     </div>
@@ -149,15 +156,14 @@
                                         <div class="card-image">
                                             <img src="assets/images/salad_bar.jpeg" alt="Image" />
                                         </div>
-                                        <div class="card-content">
+                                        <div class="card-content" style="background-color: white;">
                                             <h4 class="card-title">
-                                                <a href="javascript:void(0)" id="name"></a>
+                                                <a href="javascript:void(0)" id="name"
+                                                    style="color: var(--primary-dark);"></a>
                                             </h4>
-                                            <p class="text" style="color: white;" id="location">
+                                            <p class="text" style="color: grey;" id="location">
                                             </p>
-                                            <p class="text" style="color: white;" id="date">
-                                            </p>
-                                            <p class="text" style="color: white;" id="invite">
+                                            <p class="text" style="color: black;" id="invite">
                                             </p>
 
                                         </div>
@@ -172,7 +178,7 @@
                     </section>
                     <!--====== CARD PART ENDS ======-->
 
-</section>
+    </section>
     <!-- End Hero Area -->
     <section class="call-action">
         <div class="container">
@@ -226,7 +232,7 @@
                     <form action="#">
                         <label>Date & Time</label>
                         <div class="input-items success">
-                            <input type="text" placeholder="MM/DD" id="date_input" />
+                            <input type="text" placeholder="MM/DD at HH:MM" id="date_input" />
                             <i class="lni lni-user"></i>
                         </div>
                     </form>
@@ -240,12 +246,12 @@
                 </a>
             </div>
         </div>
-        </div>
-        <!-- row -->
+    </div>
+    <!-- row -->
     </div>
     <!-- form-style -->
     </div>
-</section>
+    </section>
 
 
     <!-- Start Footer Area -->
