@@ -10,8 +10,8 @@
   --accent: #00d4d7;
   --accent-dark: #00bac1;
   --accent-light: #dff9f8;
-  --success: #13d527;
-  --success-dark: #00ae11;
+  --success: #7bafda;
+  --success-dark: #273755;
   --success-light: #eafbe7;
   --secondary: #8f15d5;
   --secondary-dark: #6013c7;
@@ -40,7 +40,7 @@
   --gradient-1: linear-gradient(180deg, #155bd5 0%, #1c3ab6 100%);
   --gradient-2: linear-gradient(180deg, #155bd5 13.02%, #00d4d7 85.42%);
   --gradient-3: linear-gradient(180deg, #155bd5 0%, #8f15d5 100%);
-  --gradient-4: linear-gradient(180deg, #155bd5 0%, #13d527 100%);
+  --gradient-4: linear-gradient(180deg, #155bd5 0%, #7bafda 100%);
   --gradient-5: linear-gradient(180deg, #155bd5 0%, #15bbd5 100%);
   --gradient-6: linear-gradient(180deg, #155bd5 0%, #dbbb25 100%);
   --gradient-7: linear-gradient(180deg, #155bd5 0%, #e6185e 100%);
