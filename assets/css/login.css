@@ -8,6 +8,22 @@
 	max-width:20%;
 	max-height:20%;
   }
+
+a:link{
+	color: white;
+}
+
+a:visited{
+	color: white;
+}
+
+a:hover{
+	color: white;
+}
+
+a:active{
+	color: white;
+}
 /* ===== Buttons Css ===== */
 .signin-one .rounded-buttons .primary-btn {
 	background: var(--primary);
